@@ -8,4 +8,4 @@ for i=1:c // iterates through columns and rows, i, j, respectively
       Y(j, i) = ((j-1)*dy);
   end
 end
-plot(X, Y, 'Marker', '.', 'LineStyle', 'none')
+plot(X, Y, 'Marker', '.', 'Color', 'black', 'LineStyle', 'none');
